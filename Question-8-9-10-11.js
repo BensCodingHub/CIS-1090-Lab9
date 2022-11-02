@@ -17,13 +17,11 @@ function spelledCorrectly(word){
 
 let words = text.split(" ");
 //❓ LAB QUESTION 8:
-
-
+console.log(words)
 
 words = words.map(lowercase);
+console.log(words)
 //❓ LAB QUESTION 9:
-console.log(words.length)
-
 words = words.map( function(word){
     if ( spelledCorrectly(word) ){
         return word;
@@ -36,3 +34,4 @@ words = words.map( function(word){
 
 let result = words.join();
 //❓ LAB QUESTION 11:
+console.log(result)
