@@ -1,7 +1,6 @@
 import colors from 'colors';
 import dictionary from './dictionary.js';
 
-console.log(dictionary);
 const text = "The quick brown fox jermps over the lazy dog";
 
 function lowercase(word){
@@ -19,8 +18,11 @@ function spelledCorrectly(word){
 let words = text.split(" ");
 //❓ LAB QUESTION 8:
 
+
+
 words = words.map(lowercase);
 //❓ LAB QUESTION 9:
+console.log(words.length)
 
 words = words.map( function(word){
     if ( spelledCorrectly(word) ){
