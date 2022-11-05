@@ -7,3 +7,7 @@ function isEven(number){
 
 //❓ LAB QUESTION 12:
 //YOUR CODE HERE
+let JustGiveMeTheEvens = numbers.filter(isEven);
+console.log(JustGiveMeTheEvens)
+//Passed in the isEven function as a parameter to array.filter function
+//output will be [2, -56, 72, 42, -22, 34, 0, 106]
